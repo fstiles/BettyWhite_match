@@ -1,0 +1,111 @@
+/* LOL this is. comment in css*/
+
+body {
+	margin: 50px;
+	padding: 50px;
+	border: 5px solid #979797;
+	background-color: #444444;
+	color: white;
+	font-family: Times New Roman;
+	font-size: 20px;
+}
+
+.lineend {
+	border-bottom: 3px solid #979797;
+	padding: 35px 0;
+	margin: 35px 0;
+}
+
+.lineend--top-border {
+	border-bottom: none;
+	border-top: 3px solid #979797;
+}
+
+.lineend-title {
+	text-align: center;
+    font-style: italic;
+    font-size: 50px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.nav {
+	text-align: center;
+}
+
+.nav-link {
+	color: #0d9;
+	font-family: Helvetica;
+	padding: 0 10px;
+	border-right: 2px solid #979797;
+}
+
+.nav-link:last-child {
+	border-right: none;
+}
+
+.nav-link--last {
+	border-right: none;
+}
+
+.nav-link--selected {
+	color: white;
+	font-weight: bolder;
+	text-decoration: none;	
+	pointer-events: none;
+}
+
+.content-title {
+	font-size: 30px;
+	margin: 10px 0;
+	font-family: sans-serif;
+}
+
+.content-asset {
+	padding: 2px;
+	margin: 15px;
+	border: 1px solid white;
+}
+
+.content-asset--right {
+	float: right;
+}
+
+.subcontent-title {
+	font-size: 23px;
+	text-transform: uppercase;
+	color: #777;
+	font-family: sans-serif;
+}
+
+.line-wrap {
+	margin-left: 20px;
+}
+
+.line-item {
+	list-style: square;
+	color: #777;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+.line-item-title {
+	font-weight: bolder;
+	color: white;
+	font-size: 18px;
+}
+
+.line-item-subtitle {
+	color: white;
+	font-weight: normal;
+	font-size: 18px;
+}
+
+.line-item-desc {
+	margin-top: 0;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
